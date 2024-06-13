@@ -4,7 +4,7 @@ import { AppState } from '../Context/Context';
 import { Link } from 'react-router-dom';
 
 function Cart() {
-    const { cartItem, setCartItems } = AppState();
+    const { cartItem } = AppState();
     return (
         <Link to={"/cart-view"}>
             <span className="inline-flex relative">
