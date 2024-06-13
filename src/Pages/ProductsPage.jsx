@@ -11,6 +11,7 @@ export default function ProductsPage() {
 
     const { data, loading, error } = useFetch("https://api.freeapi.app/api/v1/public/randomproducts?page=1&limit=100");
 
+
     useEffect(() => {
         setProducts(data)
     }, [data]);
