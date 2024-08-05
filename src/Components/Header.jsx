@@ -17,7 +17,7 @@ export default function Header() {
     ]
     return (
         <div className='flex justify-between items-center p-4'>
-            <div className='text-2xl font-semibold text-purple-500'><Link to="/Public-Api/"><img src="assest/android-chrome-192x192.png" alt="Logo" className='w-9 mx-2' /></Link></div>
+            <div className='text-2xl font-semibold text-purple-500'><Link to="/Public-Api/"><img src="Logo.png" alt="Logo" className='w-9 mx-2' /></Link></div>
             <nav>
                 <ul className='flex items-center gap-4'>
                     {Links.map((link) => (
